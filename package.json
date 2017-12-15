@@ -1,12 +1,18 @@
 {
   "name": "dts-webcomponents",
   "version": "1.0.0",
-  "description": "",
+  "description": "Digitial Technology Services - Web Components",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "James Ngo (jngo2@toronto.ca)",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-eslint": "^4.0.0"
+  }
 }

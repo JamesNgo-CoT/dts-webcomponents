@@ -1,0 +1,6 @@
+{
+  "parser": "Babel-ESLint",
+  "parserOptions": {
+    "ecmaVersion": 6
+  }
+}

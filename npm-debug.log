@@ -1,0 +1,588 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'Babel-ESLint' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData Babel-ESLint
+8 silly fetchNamedPackageData Babel-ESLint
+9 silly mapToRegistry name Babel-ESLint
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'Babel-ESLint',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'Babel-ESLint',
+12 silly mapToRegistry   name: 'Babel-ESLint',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/Babel-ESLint
+14 verbose request uri https://registry.npmjs.org/Babel-ESLint
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 5:18:14 PM
+17 verbose request id fc1bfe9d5630cb9f
+18 verbose etag W/"5a12ff7f-2995b"
+19 verbose lastModified Mon, 20 Nov 2017 16:14:55 GMT
+20 http request GET https://registry.npmjs.org/Babel-ESLint
+21 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+22 info attempt registry request try #2 at 5:18:24 PM
+23 verbose etag W/"5a12ff7f-2995b"
+24 verbose lastModified Mon, 20 Nov 2017 16:14:55 GMT
+25 http request GET https://registry.npmjs.org/Babel-ESLint
+26 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+27 info attempt registry request try #3 at 5:19:24 PM
+28 verbose etag W/"5a12ff7f-2995b"
+29 verbose lastModified Mon, 20 Nov 2017 16:14:55 GMT
+30 http request GET https://registry.npmjs.org/Babel-ESLint
+31 silly get cb [ 304, undefined ]
+32 verbose etag https://registry.npmjs.org/Babel-ESLint from cache
+33 verbose get saving babel-eslint to C:\Users\jngo2\AppData\Roaming\npm-cache\registry.npmjs.org\Babel-ESLint\.cache.json
+34 verbose correctMkdir C:\Users\jngo2\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+35 silly install normalizeTree
+36 silly loadCurrentTree Finishing
+37 silly loadIdealTree Starting
+38 silly install loadIdealTree
+39 silly cloneCurrentTree Starting
+40 silly install cloneCurrentTreeToIdealTree
+41 silly cloneCurrentTree Finishing
+42 silly loadShrinkwrap Starting
+43 silly install loadShrinkwrap
+44 silly loadShrinkwrap Finishing
+45 silly loadAllDepsIntoIdealTree Starting
+46 silly install loadAllDepsIntoIdealTree
+47 silly resolveWithNewModule babel-eslint@8.0.2 checking installable status
+48 silly cache add args [ 'Babel-ESLint', null ]
+49 verbose cache add spec Babel-ESLint
+50 silly cache add parsed spec Result {
+50 silly cache add   raw: 'Babel-ESLint',
+50 silly cache add   scope: null,
+50 silly cache add   escapedName: 'Babel-ESLint',
+50 silly cache add   name: 'Babel-ESLint',
+50 silly cache add   rawSpec: '',
+50 silly cache add   spec: 'latest',
+50 silly cache add   type: 'tag' }
+51 silly addNamed Babel-ESLint@latest
+52 verbose addNamed "latest" is being treated as a dist-tag for Babel-ESLint
+53 info addNameTag [ 'Babel-ESLint', 'latest' ]
+54 silly mapToRegistry name Babel-ESLint
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry https://registry.npmjs.org/
+57 silly mapToRegistry data Result {
+57 silly mapToRegistry   raw: 'Babel-ESLint',
+57 silly mapToRegistry   scope: null,
+57 silly mapToRegistry   escapedName: 'Babel-ESLint',
+57 silly mapToRegistry   name: 'Babel-ESLint',
+57 silly mapToRegistry   rawSpec: '',
+57 silly mapToRegistry   spec: 'latest',
+57 silly mapToRegistry   type: 'tag' }
+58 silly mapToRegistry uri https://registry.npmjs.org/Babel-ESLint
+59 verbose addNameTag registry:https://registry.npmjs.org/Babel-ESLint not in flight; fetching
+60 verbose get https://registry.npmjs.org/Babel-ESLint not expired, no request
+61 silly addNameTag next cb for Babel-ESLint with tag latest
+62 silly addNamed Babel-ESLint@8.0.2
+63 verbose addNamed "8.0.2" is a plain semver version for Babel-ESLint
+64 silly cache afterAdd babel-eslint@8.0.2
+65 verbose afterAdd C:\Users\jngo2\AppData\Roaming\npm-cache\babel-eslint\8.0.2\package\package.json not in flight; writing
+66 verbose correctMkdir C:\Users\jngo2\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+67 verbose afterAdd C:\Users\jngo2\AppData\Roaming\npm-cache\babel-eslint\8.0.2\package\package.json written
+68 silly fetchNamedPackageData @babel/code-frame
+69 silly mapToRegistry name @babel/code-frame
+70 silly mapToRegistry scope (from package name) @babel
+71 verbose mapToRegistry no registry URL found in name for scope @babel
+72 silly mapToRegistry using default registry
+73 silly mapToRegistry registry https://registry.npmjs.org/
+74 silly mapToRegistry data Result {
+74 silly mapToRegistry   raw: '@babel/code-frame',
+74 silly mapToRegistry   scope: '@babel',
+74 silly mapToRegistry   escapedName: '@babel%2fcode-frame',
+74 silly mapToRegistry   name: '@babel/code-frame',
+74 silly mapToRegistry   rawSpec: '',
+74 silly mapToRegistry   spec: 'latest',
+74 silly mapToRegistry   type: 'tag' }
+75 silly mapToRegistry uri https://registry.npmjs.org/@babel%2fcode-frame
+76 silly fetchNamedPackageData @babel/traverse
+77 silly mapToRegistry name @babel/traverse
+78 silly mapToRegistry scope (from package name) @babel
+79 verbose mapToRegistry no registry URL found in name for scope @babel
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry data Result {
+82 silly mapToRegistry   raw: '@babel/traverse',
+82 silly mapToRegistry   scope: '@babel',
+82 silly mapToRegistry   escapedName: '@babel%2ftraverse',
+82 silly mapToRegistry   name: '@babel/traverse',
+82 silly mapToRegistry   rawSpec: '',
+82 silly mapToRegistry   spec: 'latest',
+82 silly mapToRegistry   type: 'tag' }
+83 silly mapToRegistry uri https://registry.npmjs.org/@babel%2ftraverse
+84 silly fetchNamedPackageData @babel/types
+85 silly mapToRegistry name @babel/types
+86 silly mapToRegistry scope (from package name) @babel
+87 verbose mapToRegistry no registry URL found in name for scope @babel
+88 silly mapToRegistry using default registry
+89 silly mapToRegistry registry https://registry.npmjs.org/
+90 silly mapToRegistry data Result {
+90 silly mapToRegistry   raw: '@babel/types',
+90 silly mapToRegistry   scope: '@babel',
+90 silly mapToRegistry   escapedName: '@babel%2ftypes',
+90 silly mapToRegistry   name: '@babel/types',
+90 silly mapToRegistry   rawSpec: '',
+90 silly mapToRegistry   spec: 'latest',
+90 silly mapToRegistry   type: 'tag' }
+91 silly mapToRegistry uri https://registry.npmjs.org/@babel%2ftypes
+92 silly fetchNamedPackageData babylon
+93 silly mapToRegistry name babylon
+94 silly mapToRegistry using default registry
+95 silly mapToRegistry registry https://registry.npmjs.org/
+96 silly mapToRegistry data Result {
+96 silly mapToRegistry   raw: 'babylon',
+96 silly mapToRegistry   scope: null,
+96 silly mapToRegistry   escapedName: 'babylon',
+96 silly mapToRegistry   name: 'babylon',
+96 silly mapToRegistry   rawSpec: '',
+96 silly mapToRegistry   spec: 'latest',
+96 silly mapToRegistry   type: 'tag' }
+97 silly mapToRegistry uri https://registry.npmjs.org/babylon
+98 verbose request uri https://registry.npmjs.org/@babel%2ftraverse
+99 verbose request no auth needed
+100 info attempt registry request try #1 at 5:19:24 PM
+101 verbose etag W/"5a22bb4b-2ab7"
+102 verbose lastModified Sat, 02 Dec 2017 14:40:11 GMT
+103 http request GET https://registry.npmjs.org/@babel%2ftraverse
+104 verbose request uri https://registry.npmjs.org/@babel%2fcode-frame
+105 verbose request no auth needed
+106 info attempt registry request try #1 at 5:19:24 PM
+107 verbose etag W/"5a22bb01-2c0e"
+108 verbose lastModified Sat, 02 Dec 2017 14:38:57 GMT
+109 http request GET https://registry.npmjs.org/@babel%2fcode-frame
+110 verbose request uri https://registry.npmjs.org/@babel%2ftypes
+111 verbose request no auth needed
+112 info attempt registry request try #1 at 5:19:24 PM
+113 verbose etag W/"5a22bb25-11c9d"
+114 verbose lastModified Sat, 02 Dec 2017 14:39:33 GMT
+115 http request GET https://registry.npmjs.org/@babel%2ftypes
+116 verbose request uri https://registry.npmjs.org/babylon
+117 verbose request no auth needed
+118 info attempt registry request try #1 at 5:19:24 PM
+119 verbose etag "5a32f18e-56efc"
+120 verbose lastModified Thu, 14 Dec 2017 21:47:58 GMT
+121 http request GET https://registry.npmjs.org/babylon
+122 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+123 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+124 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+125 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+126 info attempt registry request try #2 at 5:19:34 PM
+127 verbose etag W/"5a22bb4b-2ab7"
+128 verbose lastModified Sat, 02 Dec 2017 14:40:11 GMT
+129 http request GET https://registry.npmjs.org/@babel%2ftraverse
+130 info attempt registry request try #2 at 5:19:34 PM
+131 verbose etag W/"5a22bb01-2c0e"
+132 verbose lastModified Sat, 02 Dec 2017 14:38:57 GMT
+133 http request GET https://registry.npmjs.org/@babel%2fcode-frame
+134 info attempt registry request try #2 at 5:19:34 PM
+135 verbose etag "5a32f18e-56efc"
+136 verbose lastModified Thu, 14 Dec 2017 21:47:58 GMT
+137 http request GET https://registry.npmjs.org/babylon
+138 info attempt registry request try #2 at 5:19:34 PM
+139 verbose etag W/"5a22bb25-11c9d"
+140 verbose lastModified Sat, 02 Dec 2017 14:39:33 GMT
+141 http request GET https://registry.npmjs.org/@babel%2ftypes
+142 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+143 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+144 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+145 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+146 info attempt registry request try #3 at 5:20:34 PM
+147 verbose etag W/"5a22bb4b-2ab7"
+148 verbose lastModified Sat, 02 Dec 2017 14:40:11 GMT
+149 http request GET https://registry.npmjs.org/@babel%2ftraverse
+150 info attempt registry request try #3 at 5:20:34 PM
+151 verbose etag W/"5a22bb01-2c0e"
+152 verbose lastModified Sat, 02 Dec 2017 14:38:57 GMT
+153 http request GET https://registry.npmjs.org/@babel%2fcode-frame
+154 info attempt registry request try #3 at 5:20:34 PM
+155 verbose etag "5a32f18e-56efc"
+156 verbose lastModified Thu, 14 Dec 2017 21:47:58 GMT
+157 http request GET https://registry.npmjs.org/babylon
+158 info attempt registry request try #3 at 5:20:34 PM
+159 verbose etag W/"5a22bb25-11c9d"
+160 verbose lastModified Sat, 02 Dec 2017 14:39:33 GMT
+161 http request GET https://registry.npmjs.org/@babel%2ftypes
+162 silly get cb [ 304, undefined ]
+163 verbose etag https://registry.npmjs.org/babylon from cache
+164 verbose get saving babylon to C:\Users\jngo2\AppData\Roaming\npm-cache\registry.npmjs.org\babylon\.cache.json
+165 verbose correctMkdir C:\Users\jngo2\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+166 silly get cb [ 304, undefined ]
+167 verbose etag https://registry.npmjs.org/@babel%2ftraverse from cache
+168 verbose get saving @babel/traverse to C:\Users\jngo2\AppData\Roaming\npm-cache\registry.npmjs.org\_40babel_252ftraverse\.cache.json
+169 verbose correctMkdir C:\Users\jngo2\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+170 silly get cb [ 304, undefined ]
+171 verbose etag https://registry.npmjs.org/@babel%2fcode-frame from cache
+172 verbose get saving @babel/code-frame to C:\Users\jngo2\AppData\Roaming\npm-cache\registry.npmjs.org\_40babel_252fcode-frame\.cache.json
+173 verbose correctMkdir C:\Users\jngo2\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+174 silly get cb [ 304, undefined ]
+175 verbose etag https://registry.npmjs.org/@babel%2ftypes from cache
+176 verbose get saving @babel/types to C:\Users\jngo2\AppData\Roaming\npm-cache\registry.npmjs.org\_40babel_252ftypes\.cache.json
+177 verbose correctMkdir C:\Users\jngo2\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+178 silly resolveWithNewModule babylon@7.0.0-beta.35 checking installable status
+179 silly cache add args [ 'babylon@^7.0.0-beta.31', null ]
+180 verbose cache add spec babylon@^7.0.0-beta.31
+181 silly cache add parsed spec Result {
+181 silly cache add   raw: 'babylon@^7.0.0-beta.31',
+181 silly cache add   scope: null,
+181 silly cache add   escapedName: 'babylon',
+181 silly cache add   name: 'babylon',
+181 silly cache add   rawSpec: '^7.0.0-beta.31',
+181 silly cache add   spec: '>=7.0.0-beta.31 <8.0.0',
+181 silly cache add   type: 'range' }
+182 silly addNamed babylon@>=7.0.0-beta.31 <8.0.0
+183 verbose addNamed ">=7.0.0-beta.31 <8.0.0" is a valid semver range for babylon
+184 silly addNameRange { name: 'babylon',
+184 silly addNameRange   range: '>=7.0.0-beta.31 <8.0.0',
+184 silly addNameRange   hasData: false }
+185 silly mapToRegistry name babylon
+186 silly mapToRegistry using default registry
+187 silly mapToRegistry registry https://registry.npmjs.org/
+188 silly mapToRegistry data Result {
+188 silly mapToRegistry   raw: 'babylon',
+188 silly mapToRegistry   scope: null,
+188 silly mapToRegistry   escapedName: 'babylon',
+188 silly mapToRegistry   name: 'babylon',
+188 silly mapToRegistry   rawSpec: '',
+188 silly mapToRegistry   spec: 'latest',
+188 silly mapToRegistry   type: 'tag' }
+189 silly mapToRegistry uri https://registry.npmjs.org/babylon
+190 verbose addNameRange registry:https://registry.npmjs.org/babylon not in flight; fetching
+191 silly resolveWithNewModule @babel/types@7.0.0-beta.34 checking installable status
+192 silly cache add args [ '@babel/types@^7.0.0-beta.31', null ]
+193 verbose cache add spec @babel/types@^7.0.0-beta.31
+194 silly cache add parsed spec Result {
+194 silly cache add   raw: '@babel/types@^7.0.0-beta.31',
+194 silly cache add   scope: '@babel',
+194 silly cache add   escapedName: '@babel%2ftypes',
+194 silly cache add   name: '@babel/types',
+194 silly cache add   rawSpec: '^7.0.0-beta.31',
+194 silly cache add   spec: '>=7.0.0-beta.31 <8.0.0',
+194 silly cache add   type: 'range' }
+195 silly addNamed @babel/types@>=7.0.0-beta.31 <8.0.0
+196 verbose addNamed ">=7.0.0-beta.31 <8.0.0" is a valid semver range for @babel/types
+197 silly addNameRange { name: '@babel/types',
+197 silly addNameRange   range: '>=7.0.0-beta.31 <8.0.0',
+197 silly addNameRange   hasData: false }
+198 silly mapToRegistry name @babel/types
+199 silly mapToRegistry scope (from package name) @babel
+200 verbose mapToRegistry no registry URL found in name for scope @babel
+201 silly mapToRegistry using default registry
+202 silly mapToRegistry registry https://registry.npmjs.org/
+203 silly mapToRegistry data Result {
+203 silly mapToRegistry   raw: '@babel/types',
+203 silly mapToRegistry   scope: '@babel',
+203 silly mapToRegistry   escapedName: '@babel%2ftypes',
+203 silly mapToRegistry   name: '@babel/types',
+203 silly mapToRegistry   rawSpec: '',
+203 silly mapToRegistry   spec: 'latest',
+203 silly mapToRegistry   type: 'tag' }
+204 silly mapToRegistry uri https://registry.npmjs.org/@babel%2ftypes
+205 verbose addNameRange registry:https://registry.npmjs.org/@babel%2ftypes not in flight; fetching
+206 silly resolveWithNewModule @babel/traverse@7.0.0-beta.34 checking installable status
+207 silly cache add args [ '@babel/traverse@^7.0.0-beta.31', null ]
+208 verbose cache add spec @babel/traverse@^7.0.0-beta.31
+209 silly cache add parsed spec Result {
+209 silly cache add   raw: '@babel/traverse@^7.0.0-beta.31',
+209 silly cache add   scope: '@babel',
+209 silly cache add   escapedName: '@babel%2ftraverse',
+209 silly cache add   name: '@babel/traverse',
+209 silly cache add   rawSpec: '^7.0.0-beta.31',
+209 silly cache add   spec: '>=7.0.0-beta.31 <8.0.0',
+209 silly cache add   type: 'range' }
+210 silly addNamed @babel/traverse@>=7.0.0-beta.31 <8.0.0
+211 verbose addNamed ">=7.0.0-beta.31 <8.0.0" is a valid semver range for @babel/traverse
+212 silly addNameRange { name: '@babel/traverse',
+212 silly addNameRange   range: '>=7.0.0-beta.31 <8.0.0',
+212 silly addNameRange   hasData: false }
+213 silly mapToRegistry name @babel/traverse
+214 silly mapToRegistry scope (from package name) @babel
+215 verbose mapToRegistry no registry URL found in name for scope @babel
+216 silly mapToRegistry using default registry
+217 silly mapToRegistry registry https://registry.npmjs.org/
+218 silly mapToRegistry data Result {
+218 silly mapToRegistry   raw: '@babel/traverse',
+218 silly mapToRegistry   scope: '@babel',
+218 silly mapToRegistry   escapedName: '@babel%2ftraverse',
+218 silly mapToRegistry   name: '@babel/traverse',
+218 silly mapToRegistry   rawSpec: '',
+218 silly mapToRegistry   spec: 'latest',
+218 silly mapToRegistry   type: 'tag' }
+219 silly mapToRegistry uri https://registry.npmjs.org/@babel%2ftraverse
+220 verbose addNameRange registry:https://registry.npmjs.org/@babel%2ftraverse not in flight; fetching
+221 silly resolveWithNewModule @babel/code-frame@7.0.0-beta.34 checking installable status
+222 silly cache add args [ '@babel/code-frame@^7.0.0-beta.31', null ]
+223 verbose cache add spec @babel/code-frame@^7.0.0-beta.31
+224 silly cache add parsed spec Result {
+224 silly cache add   raw: '@babel/code-frame@^7.0.0-beta.31',
+224 silly cache add   scope: '@babel',
+224 silly cache add   escapedName: '@babel%2fcode-frame',
+224 silly cache add   name: '@babel/code-frame',
+224 silly cache add   rawSpec: '^7.0.0-beta.31',
+224 silly cache add   spec: '>=7.0.0-beta.31 <8.0.0',
+224 silly cache add   type: 'range' }
+225 silly addNamed @babel/code-frame@>=7.0.0-beta.31 <8.0.0
+226 verbose addNamed ">=7.0.0-beta.31 <8.0.0" is a valid semver range for @babel/code-frame
+227 silly addNameRange { name: '@babel/code-frame',
+227 silly addNameRange   range: '>=7.0.0-beta.31 <8.0.0',
+227 silly addNameRange   hasData: false }
+228 silly mapToRegistry name @babel/code-frame
+229 silly mapToRegistry scope (from package name) @babel
+230 verbose mapToRegistry no registry URL found in name for scope @babel
+231 silly mapToRegistry using default registry
+232 silly mapToRegistry registry https://registry.npmjs.org/
+233 silly mapToRegistry data Result {
+233 silly mapToRegistry   raw: '@babel/code-frame',
+233 silly mapToRegistry   scope: '@babel',
+233 silly mapToRegistry   escapedName: '@babel%2fcode-frame',
+233 silly mapToRegistry   name: '@babel/code-frame',
+233 silly mapToRegistry   rawSpec: '',
+233 silly mapToRegistry   spec: 'latest',
+233 silly mapToRegistry   type: 'tag' }
+234 silly mapToRegistry uri https://registry.npmjs.org/@babel%2fcode-frame
+235 verbose addNameRange registry:https://registry.npmjs.org/@babel%2fcode-frame not in flight; fetching
+236 verbose get https://registry.npmjs.org/@babel%2ftypes not expired, no request
+237 silly addNameRange number 2 { name: '@babel/types',
+237 silly addNameRange   range: '>=7.0.0-beta.31 <8.0.0',
+237 silly addNameRange   hasData: true }
+238 silly addNameRange versions [ '@babel/types',
+238 silly addNameRange   [ '7.0.0-beta.4',
+238 silly addNameRange     '7.0.0-beta.5',
+238 silly addNameRange     '7.0.0-beta.31',
+238 silly addNameRange     '7.0.0-beta.32',
+238 silly addNameRange     '7.0.0-beta.33',
+238 silly addNameRange     '7.0.0-beta.34' ] ]
+239 silly addNamed @babel/types@7.0.0-beta.34
+240 verbose addNamed "7.0.0-beta.34" is a plain semver version for @babel/types
+241 verbose get https://registry.npmjs.org/babylon not expired, no request
+242 silly addNameRange number 2 { name: 'babylon',
+242 silly addNameRange   range: '>=7.0.0-beta.31 <8.0.0',
+242 silly addNameRange   hasData: true }
+243 silly addNameRange versions [ 'babylon',
+243 silly addNameRange   [ '0.0.1',
+243 silly addNameRange     '5.6.23',
+243 silly addNameRange     '5.7.1',
+243 silly addNameRange     '5.7.2',
+243 silly addNameRange     '5.8.2',
+243 silly addNameRange     '5.8.3',
+243 silly addNameRange     '5.8.5',
+243 silly addNameRange     '5.8.6',
+243 silly addNameRange     '5.8.8',
+243 silly addNameRange     '5.8.9',
+243 silly addNameRange     '5.8.12',
+243 silly addNameRange     '5.8.13',
+243 silly addNameRange     '5.8.19',
+243 silly addNameRange     '5.8.20',
+243 silly addNameRange     '5.8.21',
+243 silly addNameRange     '5.8.22',
+243 silly addNameRange     '5.8.23',
+243 silly addNameRange     '5.8.29',
+243 silly addNameRange     '6.0.2',
+243 silly addNameRange     '6.0.14',
+243 silly addNameRange     '6.0.17',
+243 silly addNameRange     '6.0.18',
+243 silly addNameRange     '6.1.2',
+243 silly addNameRange     '6.1.4',
+243 silly addNameRange     '5.8.34',
+243 silly addNameRange     '6.1.17',
+243 silly addNameRange     '6.1.18',
+243 silly addNameRange     '6.1.20',
+243 silly addNameRange     '6.1.21',
+243 silly addNameRange     '6.2.0',
+243 silly addNameRange     '6.2.4',
+243 silly addNameRange     '6.3.0',
+243 silly addNameRange     '6.3.13',
+243 silly addNameRange     '6.3.14',
+243 silly addNameRange     '6.3.15',
+243 silly addNameRange     '6.3.18',
+243 silly addNameRange     '6.3.20',
+243 silly addNameRange     '6.3.21',
+243 silly addNameRange     '6.3.25',
+243 silly addNameRange     '6.3.26',
+243 silly addNameRange     '6.4.0',
+243 silly addNameRange     '6.4.2',
+243 silly addNameRange     '6.4.5',
+243 silly addNameRange     '5.8.35',
+243 silly addNameRange     '6.5.0',
+243 silly addNameRange     '6.5.0-1',
+243 silly addNameRange     '6.5.2',
+243 silly addNameRange     '6.6.0',
+243 silly addNameRange     '6.6.4',
+243 silly addNameRange     '6.6.5',
+243 silly addNameRange     '6.7.0',
+243 silly addNameRange     '6.7.1-test.1',
+243 silly addNameRange     '6.7.1-test.2',
+243 silly addNameRange     '5.8.38',
+243 silly addNameRange     '6.8.0',
+243 silly addNameRange     '6.8.1',
+243 silly addNameRange     '6.8.2',
+243 silly addNameRange     '6.8.3',
+243 silly addNameRange     '6.8.4',
+243 silly addNameRange     '6.9.0',
+243 silly addNameRange     '6.9.1',
+243 silly addNameRange     '6.9.2',
+243 silly addNameRange     '6.10.0',
+243 silly addNameRange     '6.11.0',
+243 silly addNameRange     '6.11.1',
+243 silly addNameRange     '6.11.2',
+243 silly addNameRange     '6.11.3',
+243 silly addNameRange     '6.11.4',
+243 silly addNameRange     '6.11.5',
+243 silly addNameRange     '6.11.6',
+243 silly addNameRange     '6.12.0',
+243 silly addNameRange     '6.13.0',
+243 silly addNameRange     '6.13.1',
+243 silly addNameRange     '6.14.0',
+243 silly addNameRange     '6.14.1',
+243 silly addNameRange     '6.15.0',
+243 silly addNameRange     '7.0.0-beta.0',
+243 silly addNameRange     '7.0.0-beta.1',
+243 silly addNameRange     '7.0.0-beta.2',
+243 silly addNameRange     '6.16.0',
+243 silly addNameRange     '6.16.1',
+243 silly addNameRange     '7.0.0-beta.3',
+243 silly addNameRange     '7.0.0-beta.4',
+243 silly addNameRange     '7.0.0-beta.5',
+243 silly addNameRange     '7.0.0-beta.6',
+243 silly addNameRange     '7.0.0-beta.7',
+243 silly addNameRange     '7.0.0-beta.8',
+243 silly addNameRange     '6.17.0',
+243 silly addNameRange     '6.17.1',
+243 silly addNameRange     '7.0.0-beta.9',
+243 silly addNameRange     '7.0.0-beta.10',
+243 silly addNameRange     '7.0.0-beta.11',
+243 silly addNameRange     '7.0.0-beta.12',
+243 silly addNameRange     '6.17.2',
+243 silly addNameRange     '7.0.0-beta.13',
+243 silly addNameRange     '6.17.3',
+243 silly addNameRange     '6.17.4',
+243 silly addNameRange     '7.0.0-beta.14',
+243 silly addNameRange     '7.0.0-beta.15',
+243 silly addNameRange     '7.0.0-beta.16',
+243 silly addNameRange     ... 20 more items ] ]
+244 silly addNamed babylon@7.0.0-beta.35
+245 verbose addNamed "7.0.0-beta.35" is a plain semver version for babylon
+246 silly mapToRegistry name babylon
+247 silly mapToRegistry using default registry
+248 silly mapToRegistry registry https://registry.npmjs.org/
+249 silly mapToRegistry data Result {
+249 silly mapToRegistry   raw: 'babylon',
+249 silly mapToRegistry   scope: null,
+249 silly mapToRegistry   escapedName: 'babylon',
+249 silly mapToRegistry   name: 'babylon',
+249 silly mapToRegistry   rawSpec: '',
+249 silly mapToRegistry   spec: 'latest',
+249 silly mapToRegistry   type: 'tag' }
+250 silly mapToRegistry uri https://registry.npmjs.org/babylon
+251 verbose addRemoteTarball https://registry.npmjs.org/babylon/-/babylon-7.0.0-beta.35.tgz not in flight; adding
+252 verbose addRemoteTarball [ 'https://registry.npmjs.org/babylon/-/babylon-7.0.0-beta.35.tgz',
+252 verbose addRemoteTarball   '9f9e609ed50c28d4333f545b373a381b47e9e6ed' ]
+253 verbose get https://registry.npmjs.org/@babel%2ftraverse not expired, no request
+254 silly addNameRange number 2 { name: '@babel/traverse',
+254 silly addNameRange   range: '>=7.0.0-beta.31 <8.0.0',
+254 silly addNameRange   hasData: true }
+255 silly addNameRange versions [ '@babel/traverse',
+255 silly addNameRange   [ '7.0.0-beta.4',
+255 silly addNameRange     '7.0.0-beta.5',
+255 silly addNameRange     '7.0.0-beta.31',
+255 silly addNameRange     '7.0.0-beta.32',
+255 silly addNameRange     '7.0.0-beta.33',
+255 silly addNameRange     '7.0.0-beta.34' ] ]
+256 silly addNamed @babel/traverse@7.0.0-beta.34
+257 verbose addNamed "7.0.0-beta.34" is a plain semver version for @babel/traverse
+258 verbose get https://registry.npmjs.org/@babel%2fcode-frame not expired, no request
+259 silly addNameRange number 2 { name: '@babel/code-frame',
+259 silly addNameRange   range: '>=7.0.0-beta.31 <8.0.0',
+259 silly addNameRange   hasData: true }
+260 silly addNameRange versions [ '@babel/code-frame',
+260 silly addNameRange   [ '7.0.0-beta.4',
+260 silly addNameRange     '7.0.0-beta.5',
+260 silly addNameRange     '7.0.0-beta.31',
+260 silly addNameRange     '7.0.0-beta.32',
+260 silly addNameRange     '7.0.0-beta.33',
+260 silly addNameRange     '7.0.0-beta.34' ] ]
+261 silly addNamed @babel/code-frame@7.0.0-beta.34
+262 verbose addNamed "7.0.0-beta.34" is a plain semver version for @babel/code-frame
+263 silly cache afterAdd @babel/types@7.0.0-beta.34
+264 verbose afterAdd C:\Users\jngo2\AppData\Roaming\npm-cache\@babel\types\7.0.0-beta.34\package\package.json not in flight; writing
+265 verbose correctMkdir C:\Users\jngo2\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+266 info retry fetch attempt 1 at 5:20:35 PM
+267 info attempt registry request try #1 at 5:20:35 PM
+268 http fetch GET https://registry.npmjs.org/babylon/-/babylon-7.0.0-beta.35.tgz
+269 silly cache afterAdd @babel/traverse@7.0.0-beta.34
+270 verbose afterAdd C:\Users\jngo2\AppData\Roaming\npm-cache\@babel\traverse\7.0.0-beta.34\package\package.json not in flight; writing
+271 verbose correctMkdir C:\Users\jngo2\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+272 silly cache afterAdd @babel/code-frame@7.0.0-beta.34
+273 verbose afterAdd C:\Users\jngo2\AppData\Roaming\npm-cache\@babel\code-frame\7.0.0-beta.34\package\package.json not in flight; writing
+274 verbose correctMkdir C:\Users\jngo2\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+275 verbose afterAdd C:\Users\jngo2\AppData\Roaming\npm-cache\@babel\types\7.0.0-beta.34\package\package.json written
+276 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+277 verbose afterAdd C:\Users\jngo2\AppData\Roaming\npm-cache\@babel\traverse\7.0.0-beta.34\package\package.json written
+278 verbose afterAdd C:\Users\jngo2\AppData\Roaming\npm-cache\@babel\code-frame\7.0.0-beta.34\package\package.json written
+279 info attempt registry request try #2 at 5:20:45 PM
+280 http fetch GET https://registry.npmjs.org/babylon/-/babylon-7.0.0-beta.35.tgz
+281 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+282 info attempt registry request try #3 at 5:21:45 PM
+283 http fetch GET https://registry.npmjs.org/babylon/-/babylon-7.0.0-beta.35.tgz
+284 error fetch failed https://registry.npmjs.org/babylon/-/babylon-7.0.0-beta.35.tgz
+285 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+286 info retry fetch attempt 2 at 5:21:55 PM
+287 info attempt registry request try #1 at 5:21:55 PM
+288 http fetch GET https://registry.npmjs.org/babylon/-/babylon-7.0.0-beta.35.tgz
+289 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+290 info attempt registry request try #2 at 5:22:05 PM
+291 http fetch GET https://registry.npmjs.org/babylon/-/babylon-7.0.0-beta.35.tgz
+292 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+293 info attempt registry request try #3 at 5:23:05 PM
+294 http fetch GET https://registry.npmjs.org/babylon/-/babylon-7.0.0-beta.35.tgz
+295 error fetch failed https://registry.npmjs.org/babylon/-/babylon-7.0.0-beta.35.tgz
+296 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+297 info retry fetch attempt 3 at 5:24:05 PM
+298 info attempt registry request try #1 at 5:24:05 PM
+299 http fetch GET https://registry.npmjs.org/babylon/-/babylon-7.0.0-beta.35.tgz
+300 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+301 info attempt registry request try #2 at 5:24:15 PM
+302 http fetch GET https://registry.npmjs.org/babylon/-/babylon-7.0.0-beta.35.tgz
+303 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+304 info attempt registry request try #3 at 5:25:15 PM
+305 http fetch GET https://registry.npmjs.org/babylon/-/babylon-7.0.0-beta.35.tgz
+306 error fetch failed https://registry.npmjs.org/babylon/-/babylon-7.0.0-beta.35.tgz
+307 silly rollbackFailedOptional Starting
+308 silly rollbackFailedOptional Finishing
+309 silly runTopLevelLifecycles Finishing
+310 silly install printInstalled
+311 verbose stack Error: tunneling socket could not be established, statusCode=407
+311 verbose stack     at ClientRequest.onConnect (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:165:19)
+311 verbose stack     at ClientRequest.g (events.js:291:16)
+311 verbose stack     at emitThree (events.js:116:13)
+311 verbose stack     at ClientRequest.emit (events.js:194:7)
+311 verbose stack     at Socket.socketOnData (_http_client.js:395:11)
+311 verbose stack     at emitOne (events.js:96:13)
+311 verbose stack     at Socket.emit (events.js:188:7)
+311 verbose stack     at readableAddChunk (_stream_readable.js:176:18)
+311 verbose stack     at Socket.Readable.push (_stream_readable.js:134:10)
+311 verbose stack     at TCP.onread (net.js:548:20)
+312 verbose cwd C:\JNgo2\Projects\dts-webcomponents
+313 error Windows_NT 10.0.10586
+314 error argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save-dev" "Babel-ESLint"
+315 error node v6.10.0
+316 error npm  v3.10.10
+317 error code ECONNRESET
+318 error network tunneling socket could not be established, statusCode=407
+319 error network This is most likely not a problem with npm itself
+319 error network and is related to network connectivity.
+319 error network In most cases you are behind a proxy or have bad network settings.
+319 error network
+319 error network If you are behind a proxy, please make sure that the
+319 error network 'proxy' config is set properly.  See: 'npm help config'
+320 verbose exit [ 1, true ]
