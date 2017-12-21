@@ -1,0 +1,4 @@
+{{#label}}<label{{#id}} for="{{.}}"{{/id}}>{{.}}</label>{{/label}}
+{{^required}}(Optional){{/required}}
+<input{{#placeholder}} placeholder="{{.}}"{{/placeholder}}{{#type}} type="{{.}}"{{/type}} class="form-control"{{#id}} id="{{.}}"{{/id}}>
+{{#helptext}}<span class="help-block">{{.}}</span>{{/helptext}}

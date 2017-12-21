@@ -1,0 +1,26 @@
+<button class="btn btn-default dropdown-toggle" type="button" id="{{id}}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+  {{label}}
+  <span class="caret"></span>
+</button>
+{{#menuGroups.length}}
+<ul class="dropdown-menu" aria-labelledby="{{id}}">
+  {{#menuGroups}}
+  {{^isFirst}}
+  <li role="separator" class="divider"></li>
+  {{/isFirst}}
+  {{#header}}
+  <li class="dropdown-header">{{.}}</li>
+  {{/header}}
+  {{#menuItems}}
+  <li class="dropdown-item">
+    <a href="{{href}}">
+
+      <span class="glyphicon glyphicon-{{#glyphicon}}{{.}}{{/glyphicon}}{{^glyphicon}}none{{/glyphicon}}" aria-hidden="true"></span>
+
+      {{label}}
+    </a>
+  </li>
+  {{/menuItems}}
+  {{/menuGroups}}
+</ul>
+{{/menuGroups.length}}

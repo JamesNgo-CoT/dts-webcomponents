@@ -1,0 +1,18 @@
+{{#label}}
+<label{{^isStatic}}{{#id}} for="{{.}}"{{/id}}{{/isStatic}} class="control-label">
+  {{.}}
+</label>
+{{/label}}
+
+{{^isRequired}}(Optional){{/isRequired}}
+
+{{#isStatic}}
+<p class="form-control-static"></p>
+{{/isStatic}}
+{{^isStatic}}
+<textarea{{#isRequired}} required{{/isRequired}}{{#row}} {{.}}{{/row}} class="form-control"{{#id}} id={{.}}{{/id}}></textarea>
+{{/isStatic}}
+
+{{#helpText}}
+<span class="help-block">{{.}}</span>
+{{/helpText}}

@@ -1,7 +1,0 @@
-{
-  "parser": "Babel-ESLint",
-  "parserOptions": {
-    "ecmaVersion": 6
-  },
-  rules: []
-}

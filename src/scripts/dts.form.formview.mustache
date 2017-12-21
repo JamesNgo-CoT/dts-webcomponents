@@ -1,0 +1,50 @@
+
+{{#title}}
+<div class="row">
+  <div class="col-xs-12">
+    <h{{#headingLevel}}{{.}}{{/headingLevel}}{{^headingLevel}}1{{/headingLevel}}>{{.}}</h{{#headingLevel}}{{.}}{{/headingLevel}}{{^headingLevel}}1{{/headingLevel}}>
+  </div>
+</div>
+{{/title}}
+
+{{#description}}
+<div class="row">
+  <div class="col-xs-12">
+    <p>{{.}}</p>
+  </div>
+</div>
+{{/description}}
+
+{{#descriptionHtml}}
+<div class="row">
+  <div class="col-xs-12">
+    {{{.}}}
+  </div>
+</div>
+{{/descriptionHtml}}
+
+{{#fields.length}}
+<div class="row"></div>
+{{/fields.length}}
+
+{{#sections.length}}
+<div class="sections row"></div>
+{{/sections.length}}
+
+{{#pages.length}}
+<div class="pages row"></div>
+{{/pages.length}}
+
+<div class="row">
+  <div class="col-xs-12">
+    <p>
+      <button value="previous" class="btn btn-default">Prev</button>
+      <button value="1" class="btn btn-default">1</button>
+      <button value="2" class="btn btn-default">2</button>
+      <button value="3" class="btn btn-default">3</button>
+      <button value="next" class="btn btn-default">Next</button>
+      <button type="submit" class="btn btn-default">Submit</button>
+      <button type="reset" class="btn btn-default">Reset</button>
+    </p>
+  </div>
+</div>
